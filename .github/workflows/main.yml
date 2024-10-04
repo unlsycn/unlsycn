@@ -45,6 +45,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_other: no
           plugin_languages_threshold: 0%
+          plugin_languages_aliases: RenderScript:Rust
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects-graphs, languages-graphs
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
