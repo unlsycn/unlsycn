@@ -21,7 +21,7 @@ jobs:
       - name: Checkout branch
         run: git checkout --orphan $IMAGE_BRANCH
       - name: Generate metrics image
-        uses: gh-metrics/metrics@master
+        uses: unlsycn/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: unlsycn
